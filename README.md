@@ -52,3 +52,10 @@ Generate project with:
   	</build>
   </project>
 	```
+
+To build a project:
+* ```mvn clean```
+* ```mvn install```
+* ```mvn package```
+	* This will create a jar file in /target/
+		* run the jar file with ```java -jar FILENAME``` or ```java -cp target/my-app-1.0.jar PACKAGENAME.CLASSNAME```
